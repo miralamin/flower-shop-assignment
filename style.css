@@ -1,0 +1,26 @@
+.first-section {
+  background-color: #e554731a;
+  padding: 0px 150px;
+  padding-top: 100px;
+  display: flex;
+}
+.first-half {
+  width: 70%;
+  margin-right: 97px;
+  margin-bottom: 60px;
+}
+.second-half {
+  width: 30%;
+}
+
+h1 {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin: 0px;
+}
+p {
+  color: rgba(39, 39, 39, 0.60);
+  margin: 32px 0px;
+  line-height: 30px;
+}

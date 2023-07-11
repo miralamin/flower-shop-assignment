@@ -25,14 +25,14 @@ body {
   justify-content: center;
 }
 
-.headingtitle{
+.headingtitle {
   color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin: 0;
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
 }
 
 
@@ -55,13 +55,13 @@ margin: 0;
 
 .featurecaption {
   color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
 
 
@@ -71,7 +71,7 @@ text-decoration-line: underline;
   display: flex;
   justify-content: center;
   align-items: end;
-  
+
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
@@ -79,7 +79,7 @@ text-decoration-line: underline;
 .featureimg1 {
   width: 310px;
   height: 428px;
-object-fit: contain;
+  object-fit: contain;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -143,7 +143,7 @@ object-fit: contain;
 
 }
 
-.hotdeals{
+.hotdeals {
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   margin-bottom: 100px;
@@ -153,16 +153,16 @@ object-fit: contain;
   border-radius: 8px;
 }
 
-.hotdealsheadertext{
+.hotdealsheadertext {
   color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
-.hotdealsimg{
+.hotdealsimg {
   width: 50%;
   display: flex;
   justify-content: center;
@@ -170,7 +170,6 @@ line-height: normal;
 
 
 .subscriptionssection {
-  margin-bottom: 100px;
   display: flex;
   justify-content: center;
 }
@@ -196,28 +195,105 @@ input {
 
 
 
-.footer
-{
+.footer {
   background-color: #000000;
 
-  color:white;
-height: 449px;
-text-align: center;
-  padding-top: 100px;
+  color: white;
+  height: 449px;
+  text-align: center;
 }
 
 .footerheading1 {
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 120px;
 }
 
 .copyrithttext {
   color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
+
+/* testimonials  */
+
+.Testimonials{
+  margin-bottom: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+./* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}

@@ -41,8 +41,8 @@ margin: 0;
   color: white;
   border: none;
   background: #E55473;
-  display: inline-flex;
-  padding: 20px 43px;
+  width: 150px;
+  height: 64px;
 }
 
 
@@ -111,35 +111,35 @@ object-fit: contain;
 
 
 .deliverysection {
-  margin-left: 20%;
-  margin-right: 20%;
   margin-bottom: 100px;
-  height: 320px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
+  justify-content: space-between;
 }
 
 .deliverysectioncontent1 {
   display: flex;
+  background-color: rgba(39, 39, 39, 0.05);
   text-align: center;
   height: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: space-around;
   margin-left: 20%;
-    margin-right: 20%;
+  margin-right: 20%;
+  padding: 86px 175px 86px 175px;
 
+}
+
+.instagramsection {
+  margin-bottom: 100px;
 }
 
 
 .instaimg1 {
-  width: 464px;
-  height: 538px;
+  width: 342px;
+  height: 396px;
   display: flex;
   justify-content: center;
-  align-items: end;
+  padding: 4px;
 
 }
 
@@ -147,6 +147,7 @@ object-fit: contain;
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   margin-bottom: 100px;
+  padding: 100px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
@@ -168,19 +169,55 @@ line-height: normal;
 }
 
 
-.dealssection {
-  background-image: url("/asset/Rectangle 9.png");
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 320px;
+.subscriptionssection {
+  margin-bottom: 100px;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-
 }
+
+.subscriptionscontent {
+  background-image: url('/asset/Rectangle 9.png');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+input {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+  margin: 16px;
+}
+
 
 
 .footer
 {
   background-color: #000000;
+
+  color:white;
+height: 449px;
+text-align: center;
+  padding-top: 100px;
+}
+
+.footerheading1 {
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.copyrithttext {
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
 }
